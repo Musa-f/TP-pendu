@@ -1,6 +1,8 @@
 let btnReset = document.getElementById('reset');
 
-btnReset.addEventListener('click', askLetter)
+btnReset.addEventListener('click', askLetter);
+
+let btnKey = document.getElementById('key');
 
 
 function askLetter(){
