@@ -1,3 +1,8 @@
+let btnReset = document.getElementById('reset');
+
+btnReset.addEventListener('click', askLetter)
+
+
 function askLetter(){
     let arrayWord = ['chat', 'chien', 'lapin', 'oiseau', 'poussin',"tortue"];
     let randomWord = arrayWord[Math.floor(Math.random()*arrayWord.length)]; 
@@ -21,12 +26,8 @@ function askLetter(){
         }else{
             compteur ++;
         }
-        if (compteur == 12){
+        if (compteur == 5){
             word = []
         }
-
     } while(word.join('').toString() !== randomWord);
 }
-
-
-askLetter()
