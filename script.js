@@ -1,10 +1,8 @@
 function askLetter(){
-    //Valeurs résultats
     let arrayWord = ['chat', 'chien', 'lapin', 'oiseau', 'poussin',"tortue"];
     let randomWord = arrayWord[Math.floor(Math.random()*arrayWord.length)]; 
-    let randomWordArray = randomWord.split(""); ['c', 'h']
+    let randomWordArray = randomWord.split("");
 
-    //Valeurs entrées par l'utilisateur
     let letter; 
     let word = []; 
 
