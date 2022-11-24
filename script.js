@@ -23,13 +23,11 @@ function askLetter(){
         }else{
             compteur ++;
         }
-        if (compteur == 6){
+        if (compteur == 12){
             word = []
         }
 
     } while(word.join('').toString() !== randomWord);
-
-    alert('Vous avez trouvé ! Le mot est bien ' + randomWord);
 }
 
 

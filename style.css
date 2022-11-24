@@ -1,0 +1,148 @@
+body {
+    display: grid;
+    place-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.pendu{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: solid 2px black;
+}
+
+.element1{
+    position: absolute;
+    width: 70%;
+    height: 4%;
+    background-color: black;
+    top: 450px;
+    left: 60px;
+}
+
+.element2{
+    position: absolute;
+    width: 3%;
+    height: 70%;
+    background-color: black;
+    top: 100px;
+    left: 100px;
+}
+
+.element3{
+    position: absolute;
+    width: 55%;
+    height: 3%;
+    background-color: black;
+    top: 90px;
+    left: 60px;
+}
+
+.element4{
+    position: absolute;
+    width: 20%;
+    height: 2%;
+    background-color: black;
+    transform: rotate(140deg);
+    top: 125px;
+    left: 100px;
+}
+
+.element5{
+    position: absolute;
+    width: 1%;
+    height: 15%;
+    background-color: black;
+    top: 100px;
+    left: 320px;
+}
+
+.element6{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    top: 170px;
+    left: 295px;
+}
+
+.element7{
+    position: absolute;
+    width: 2%;
+    height: 27%;
+    background-color: black;
+    top: 230px;
+    left: 320px;
+}
+
+.element8{
+    position: absolute;
+    width: 10%;
+    height: 1.3%;
+    background-color: black;
+    transform: rotate(50deg);
+    top: 270px;
+    left: 315px;
+}
+
+.element9{
+    position: absolute;
+    width: 10%;
+    height: 1.3%;
+    background-color: black;
+    transform: rotate(-50deg);
+    top: 270px;
+    left: 285px;
+}
+
+.element10{
+    position: absolute;
+    width: 10%;
+    height: 1.3%;
+    background-color: black;
+    transform: rotate(50deg);
+    top: 370px;
+    left: 315px;
+}
+
+.element11{
+    position: absolute;
+    width: 10%;
+    height: 1.3%;
+    background-color: black;
+    transform: rotate(-50deg);
+    top: 370px;
+    left: 285px;
+}
+
+.reset-div, .send-div{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    margin-top: 5%;
+}
+
+h3{
+    text-align: center;
+}
+
+.input{
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    margin: auto;
+}
